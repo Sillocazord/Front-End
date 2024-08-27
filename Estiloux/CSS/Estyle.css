@@ -1,0 +1,39 @@
+/*Saber como fazer anotacoes no CSS é muito é massa*/
+/*Tired*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+header{
+    width: 100%;  /*largura*/
+    height: 80px; /*altura*/
+    background-color: #727272;
+}
+h1{
+    /*Verdana, Geneva, Tahoma, sans-serif\*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif\;;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.layout-grid{
+    width: 100%;
+    height: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+nav{
+    width: 400px;
+    height: 100%;
+    border: 3px solid red;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+}
