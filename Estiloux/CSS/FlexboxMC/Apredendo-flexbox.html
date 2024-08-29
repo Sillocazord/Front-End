@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts Flexiveis</title>
+    <style>
+        p{
+            width: 150px;
+            height: 150px;
+            border: 3px dashed blue;
+        }
+    </style>
+</head>
+<body>
+    <!--PX-->
+
+    <style>
+        section{ /*configuração das caixas maiores*/
+            display: flex; /* atraves desse, as caixas ganham as seguintes propiedades*/
+            flex-direction: row; /*a direção de onde se leem as caixas*/
+            flex-wrap: wrap;
+            justify-content: flex-start; /*O Espaço entre eles*/
+            align-items: center; /*alinhar itens*/
+
+            width: 700px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px dotted #000;
+        }
+
+        article{
+            width: 100px; /*Configuração das caixinhas menores*/
+            height: 100px;
+            margin-bottom: 10px;
+            background-color: rgb(255, 0, 0);
+            border: 1px dashed gray;
+            border-radius: 5px;
+        }
+    </style>
+    <!--Container do Flex, a caixa grande pontilhada-->
+    <section>
+        <!--Itens do Flex, sao as caixinhas, os filhos-->
+        <article>Item 1</article>
+        <article>Item 2</article>
+        <article>Item 3</article>
+        <article>Item 4</article>
+        <article>Item 5</article>
+        <article>Item 6</article>
+        <article>Item 7</article>
+        <article>Item 8</article>
+        <article>Item 9</article>
+        <article>Item 10</article>
+
+    </section>
+    
+    
+</body>
+</html>
