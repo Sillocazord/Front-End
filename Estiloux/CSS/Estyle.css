@@ -8,18 +8,18 @@
 }
 body{
 
-    background-color: #ffffff;
+    background-color: #efefef;
 }
 html, body{
     height: 100%;
-    border: 2px solid red;
+    
 }
 
 /**************HEADER**************/
 header, footer{
 
     width: 100%;  /*largura*/
-    height: 80px; /*altura*/
+    height: 10%; /*altura*/
     background-color: #727272;
 }
 h1{
@@ -56,7 +56,7 @@ nav{
 nav a /*para mudar as cores e a fonte da home, sobre e contato*/{
 
     display: flex;
-    color: #ffffff;
+    color: #e8e8e8;
     text-decoration: none;
     font-family: Verdana, sans-serif;
     width: 100;
@@ -89,8 +89,9 @@ nav a:hover{
 
 main {
     width: 100%;
-    height: 800px;
-    border: 3px solid red;
+    height: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .main-flex{
@@ -99,27 +100,105 @@ main {
     justify-content:space-between;
     align-items: center;
 
-    border: 2px solid blue;
-    background-color: coral;
+    background-color: solid green;
 
-    height: 600px;
+    height: 100%px;
     width: 100%;
 
 }
 
 .harmonia{
 
-    border: 2px solid purple;
+    /*border: 2px solid purple;*/
     height: 100%;
     width: 700px;
-    margin: 20px;
+    background-color: white;
+    /*margin: 20px;*/
+}
+
+.harmonia h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #a8a8a8;
+}
+
+.harmonia p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #a8a8a8;
 }
 
 aside{
-   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     height: 100%;
     width: 250px;
     margin: 20px;
+    background-color: #a49f9f;
+
+}
+.img-lapis{
+    width: 100%;
+}
+
+aside article {
+    
+    background-color: white;
+    
+  
+}
+
+aside article h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    color: #727272;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid red;
+
+}
+
+aside .buscar-box {
+
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+aside article input, aside article button{
+
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+aside article button {
+    width: 30px;
+    background-color: #727272;
+    color: white;
+    border: none;
+    border: 1px #727272;
+    cursor: pointer;
+}
+
+aside article input {
+
+    border: 1px #a8a8a8;
+    outline: none;
+    padding-right: 5px;
+    padding-left: 5px;
 }
